@@ -1,4 +1,38 @@
 ﻿<Properties StartupConfiguration="{1F12EE5A-CF0D-426F-9331-B0E0B3ECDDF2}|Default">
-  <MonoDevelop.Ide.ItemProperties.BuyFromFarmers PreferredExecutionTarget="/Applications/Safari.app" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="src/Views/index.html">
+    <Files>
+      <File FileName="src/Views/login.html" Line="1" Column="1" />
+      <File FileName="src/Views/myfarms.html" Line="30" Column="22" />
+      <File FileName="src/Views/accountfarmers.html" Line="6" Column="68" />
+      <File FileName="src/Views/productdeails.html" Line="11" Column="27" />
+      <File FileName="src/Views/productslist.html" Line="30" Column="8" />
+      <File FileName="src/Views/accountbuyer.html" Line="7" Column="8" />
+      <File FileName="src/Views/buyerlending.html" Line="6" Column="68" />
+      <File FileName="src/styles/main.css" Line="31" Column="9" />
+      <File FileName="src/Views/index.html" Line="6" Column="13" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="BuyFromFarmers" expanded="True">
+            <Node name="BuyFromFarmers" expanded="True">
+              <Node name="src" expanded="True">
+                <Node name="styles" expanded="True" />
+                <Node name="Views" expanded="True">
+                  <Node name="index.html" selected="True" />
+                </Node>
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.BuyFromFarmers PreferredExecutionTarget="/Users/oleksiykyrylenko/Applications/Chromium.app" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MultiItemStartupConfigurations />
 </Properties>

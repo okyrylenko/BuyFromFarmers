@@ -1,0 +1,38 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30621.155
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BuyFromFarmers", "BuyFromFarmers.csproj", "{1F12EE5A-CF0D-426F-9331-B0E0B3ECDDF2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{ECCBE9FB-35F8-4F1E-84C9-D90AD8D7CE34}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{C3C095E4-0159-4FB4-A25A-4A8CDE033952}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "frontend", "frontend", "{1BB7BB40-2128-4945-BD2B-84056FAC1F40}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "backend", "backend", "{498C0A6F-A9B6-4D93-9AC9-85C4579D94CD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1F12EE5A-CF0D-426F-9331-B0E0B3ECDDF2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1F12EE5A-CF0D-426F-9331-B0E0B3ECDDF2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1F12EE5A-CF0D-426F-9331-B0E0B3ECDDF2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1F12EE5A-CF0D-426F-9331-B0E0B3ECDDF2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{1F12EE5A-CF0D-426F-9331-B0E0B3ECDDF2} = {ECCBE9FB-35F8-4F1E-84C9-D90AD8D7CE34}
+		{1BB7BB40-2128-4945-BD2B-84056FAC1F40} = {ECCBE9FB-35F8-4F1E-84C9-D90AD8D7CE34}
+		{498C0A6F-A9B6-4D93-9AC9-85C4579D94CD} = {ECCBE9FB-35F8-4F1E-84C9-D90AD8D7CE34}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E484AD76-004D-4881-8DE3-87E7036FDF79}
+	EndGlobalSection
+EndGlobal

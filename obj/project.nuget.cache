@@ -1,10 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "iLRBz8ku36jiPEMiMOCrkr+k56LX1sSFfT3TcbhcO7j5tb74CdWXRYCQebsBxve2PPg43KEThLETsVyT9858gA==",
+  "dgSpecHash": "vntCdPB4hl1hyHdGHJrcsrrZ+Bk+67yPcmi0jbFmuFjufNDEiC0g65yx8qBBPOslPVRPeHboN4XRPFOn05ugEQ==",
   "success": true,
-  "projectFilePath": "/Users/oleksiykyrylenko/Desktop/repos/BuyFromFarmers/BuyFromFarmers.csproj",
-  "expectedPackageFiles": [
-    "/Users/oleksiykyrylenko/.nuget/packages/microsoft.aspnetcore.app.ref/3.1.8/microsoft.aspnetcore.app.ref.3.1.8.nupkg.sha512"
-  ],
+  "projectFilePath": "C:\\Users\\oleks\\Source\\Repos\\BuyFromFarmers\\BuyFromFarmers.csproj",
+  "expectedPackageFiles": [],
   "logs": []
 }

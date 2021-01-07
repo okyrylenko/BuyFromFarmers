@@ -49,8 +49,9 @@ table {
 }
 /*css reset ends*/
 
-body{
-    font-family:Verdana, Arial, sans-serif;
+body {
+    font-family: Verdana, Arial, sans-serif;
+    background-color: #8de3ab;
 }
 h1,h2,h3,h4,h5,h6{
     text-align:center;
@@ -84,8 +85,29 @@ nav ul li a{
     text-decoration:none;
 }
 
-.card{
-    border:1px solid;
-    margin:2px;
-    width:25%;
+.card {
+    border: 5px outset #086328;
+    border-radius: 5px;
+    margin: 2px;
+    width: 25%;
+    background-color: #0da141;
+    text-align: center;
+    padding: 2px 0px;
+}
+
+button {
+    background-color: #b0b548;
+    border-radius:5px;
+}
+
+button:hover {
+        background-color: #d6de31;
+}
+
+select > option:nth-of-type(odd) {
+    background-color: #ced4de;
+}
+
+select > option:nth-child(even) {
+    background-color: #aeb6c2;
 }

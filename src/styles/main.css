@@ -49,15 +49,24 @@ table {
 }
 /*css reset ends*/
 
+* {
+    box-sizing:border-box;
+}
+
 body {
     font-family: Verdana, Arial, sans-serif;
     background-color: #8de3ab;
 }
+
+
+
+/*large*/
 h1,h2,h3,h4,h5,h6{
     text-align:center;
     padding:10px;
     text-transform:capitalize;
 }
+
 h1{
     font-size:22px;
     font-weight:900;
@@ -86,13 +95,20 @@ nav ul li a{
 }
 
 .card {
+    display:inline-block;
     border: 5px outset #086328;
     border-radius: 5px;
-    margin: 2px;
-    width: 25%;
+    width: 48%;
+    margin:1px 1%;
     background-color: #0da141;
     text-align: center;
     padding: 2px 0px;
+    float:left;
+}
+
+.result-section{
+    clear:both;
+    margin-top:150px;
 }
 
 button {
@@ -101,7 +117,7 @@ button {
 }
 
 button:hover {
-        background-color: #d6de31;
+    background-color: #d6de31;
 }
 
 select > option:nth-of-type(odd) {
@@ -111,3 +127,20 @@ select > option:nth-of-type(odd) {
 select > option:nth-child(even) {
     background-color: #aeb6c2;
 }
+
+/*small*/
+@media only screen and (max-width: 768px) {
+    body {
+        background-color: red;
+    }
+
+    .small-12 {
+        width: 100%;
+        display:block;
+    }
+}
+
+
+
+
+

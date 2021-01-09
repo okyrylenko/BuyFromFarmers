@@ -50,7 +50,7 @@ table {
 /*css reset ends*/
 
 * {
-    box-sizing:border-box;
+    box-sizing: border-box;
 }
 
 body {
@@ -61,64 +61,89 @@ body {
 
 
 /*large*/
-h1,h2,h3,h4,h5,h6{
-    text-align:center;
-    padding:10px;
-    text-transform:capitalize;
+h1, h2, h3, h4, h5, h6 {
+    text-align: center;
+    padding: 10px;
+    text-transform: capitalize;
 }
 
-h1{
-    font-size:22px;
-    font-weight:900;
+h1 {
+    font-size: 22px;
+    font-weight: 900;
 }
 
-h2{
-    font-size:20px;
-    font-weight:600;
+h2 {
+    font-size: 20px;
+    font-weight: 600;
 }
 
-h3{
-    font-size:18px;
-    font-weight:300;
+h3 {
+    font-size: 18px;
+    font-weight: 300;
 }
 
-p{
-    font-size:15px;
-    line-height:1.8;
+p {
+    font-size: 15px;
+    line-height: 1.8;
 }
 
-nav ul li a{
-    font-size:22px;
-    font-weight:bold;
-    padding:10px;
-    text-decoration:none;
+nav ul li a {
+    font-size: 22px;
+    font-weight: bold;
+    padding: 10px;
+    text-decoration: none;
 }
 
 .card {
-    display:inline-block;
+    display: inline-block;
     border: 5px outset #086328;
     border-radius: 5px;
-    width: 48%;
-    margin:1px 1%;
+    width: 20%;
+    margin: 1px 1%;
     background-color: #0da141;
     text-align: center;
     padding: 2px 0px;
-    float:left;
+    float: left;
+    position: relative;
 }
 
-.result-section{
-    clear:both;
-    margin-top:150px;
+.product-name {
+    background-color: rgba(13, 161, 65);
+    padding: 10px 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+
+.prouct-price {
+    position: absolute;
+    bottom: 0;
+}
+
+
+li.card > img {
+    height: 250px;
+    width: 100%;
+    padding-bottom: 5px;
+}
+
+.add {
+    top: 5px;
+}
+
+.result-section {
+    clear: both;
+    margin-top: 150px;
 }
 
 button {
     background-color: #b0b548;
-    border-radius:5px;
+    border-radius: 5px;
 }
 
-button:hover {
-    background-color: #d6de31;
-}
+    button:hover {
+        background-color: #d6de31;
+    }
 
 select > option:nth-of-type(odd) {
     background-color: #ced4de;
@@ -135,12 +160,18 @@ select > option:nth-child(even) {
     }
 
     .small-12 {
-        width: 100%;
-        display:block;
+        width: 98%;
+        display: block;
+    }
+
+    button#nav-toggle {
+        cursor: pointer;
+    }
+
+    #nav-small > ul > li a {
+        display: block;
+        font-size: 30px;
+        text-align: center;
+        text-decoration: none;
     }
 }
-
-
-
-
-

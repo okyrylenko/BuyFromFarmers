@@ -1,15 +1,18 @@
 ﻿<Properties StartupConfiguration="{1F12EE5A-CF0D-426F-9331-B0E0B3ECDDF2}|Default">
   <MonoDevelop.Ide.Workbench ActiveDocument="src/Views/index.html">
     <Files>
-      <File FileName="src/Views/login.html" Line="1" Column="1" />
-      <File FileName="src/Views/myfarms.html" Line="30" Column="22" />
-      <File FileName="src/Views/accountfarmers.html" Line="6" Column="68" />
-      <File FileName="src/Views/productdeails.html" Line="11" Column="27" />
-      <File FileName="src/Views/productslist.html" Line="30" Column="8" />
-      <File FileName="src/Views/accountbuyer.html" Line="7" Column="8" />
+      <File FileName="src/Views/login.html" Line="7" Column="68" />
+      <File FileName="src/Views/myfarms.html" Line="8" Column="68" />
+      <File FileName="src/Views/accountfarmers.html" Line="7" Column="55" />
+      <File FileName="src/Views/productslist.html" Line="11" Column="14" />
+      <File FileName="src/Views/accountbuyer.html" Line="8" Column="8" />
       <File FileName="src/Views/buyerlending.html" Line="6" Column="68" />
-      <File FileName="src/styles/main.css" Line="31" Column="9" />
-      <File FileName="src/Views/index.html" Line="6" Column="13" />
+      <File FileName="src/Views/index.html" Line="7" Column="68" />
+      <File FileName="src/Views/buyerlanding.html" Line="18" Column="14" />
+      <File FileName="src/Views/cart.html" Line="1" Column="1" />
+      <File FileName="src/Views/checkout.html" Line="1" Column="1" />
+      <File FileName="src/Views/confirmation.html" Line="1" Column="1" />
+      <File FileName="src/styles/main.css" Line="138" Column="18" NotebookId="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">

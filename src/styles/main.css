@@ -87,19 +87,26 @@ p {
     line-height: 1.8;
 }
 
-nav ul li a {
+nav ul li {
     font-size: 22px;
     font-weight: bold;
     padding: 10px;
-    text-decoration: none;
+    width:50%;
+    margin: 0 auto;
+    text-align:center;
+}
+
+nav>ul>li a{
+    text-decoration:none;
+    text-align:center;
 }
 
 .card {
     display: inline-block;
     border: 5px outset #086328;
     border-radius: 5px;
-    width: 20%;
-    margin: 1px 1%;
+    width:23%;
+    margin: 5px 1%;
     background-color: #0da141;
     text-align: center;
     padding: 2px 0px;
@@ -108,16 +115,15 @@ nav ul li a {
 }
 
 .product-name {
-    background-color: rgba(13, 161, 65);
+    background-color: rgb(13, 161, 65);
     padding: 10px 0;
     position: absolute;
     top: 0;
     width: 100%;
 }
 
-.prouct-price {
-    position: absolute;
-    bottom: 0;
+.product-price {
+
 }
 
 
@@ -128,7 +134,8 @@ li.card > img {
 }
 
 .add {
-    top: 5px;
+    margin:5px 0;
+    width:25%;
 }
 
 .result-section {

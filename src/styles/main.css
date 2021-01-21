@@ -91,51 +91,52 @@ nav ul li {
     font-size: 22px;
     font-weight: bold;
     padding: 10px;
-    width:50%;
+    width: 50%;
     margin: 0 auto;
-    text-align:center;
+    text-align: center;
 }
 
-nav>ul>li a{
-    text-decoration:none;
-    text-align:center;
+nav > ul > li a {
+    text-decoration: none;
+    text-align: center;
 }
 
 .card {
-    display: inline-block;
     border: 5px outset #086328;
     border-radius: 5px;
-    width:23%;
-    margin: 5px 1%;
     background-color: #0da141;
-    text-align: center;
     padding: 2px 0px;
+}
+
+.card-inline {
+    display: inline-block;
+    width: 23%;
     float: left;
     position: relative;
+    margin: 5px 1%;
+    text-align: center;
 }
 
 .product-name {
     background-color: rgb(13, 161, 65);
     padding: 10px 0;
-    position: absolute;
     top: 0;
     width: 100%;
 }
 
 .product-price {
-
 }
 
 
-li.card > img {
+li.card img {
     height: 250px;
     width: 100%;
     padding-bottom: 5px;
 }
 
 .add {
-    margin:5px 0;
-    width:25%;
+    margin: 5px 0;
+    width: 25%;
 }
 
 .result-section {

@@ -160,6 +160,19 @@ select > option:nth-child(even) {
     background-color: #aeb6c2;
 }
 
+form *{
+    display:block;
+    width:20%;
+    margin: 0 auto;
+
+}
+
+form label,form button{
+    margin: 10px auto 0 auto;
+}
+
+
+
 /*small*/
 @media only screen and (max-width: 768px) {
     body {

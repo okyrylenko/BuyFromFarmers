@@ -5,6 +5,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     <title>My Account | Buy From Farmers</title>
     <link type="text/css" rel="stylesheet" href="../styles/main.css" />
+    <style>
+        #farm-list li{
+            width:100%;
+        }
+        #farm-list p{
+            width:100%;
+            text-align:center;
+        }
+    </style>
 </head>
 <body>
     <header>
@@ -22,11 +31,17 @@
                 <p>Zip Code:32825</p>
             </form>
             <h2>My Farms</h2>
-            <form>
+            <form id="farm-list">
                 <button type="button">EDIT</button>
                 <ul>
-                    <li>FARM 1</li>
-                    <li>FARM 2</li>
+                    <li style="width:100%">
+                        <p>FARM 1</p>
+                        <button>edit</button>
+                    </li>
+                    <li>
+                        <p>FARM 2</p>
+                        <button>edit</button>
+                    </li>
                 </ul>
             </form>
         </section>
@@ -34,11 +49,11 @@
             <form action="" method="post">
                 <h3>Edit Personal Informaiton</h3>
                 <label for="fname">First Name</label>
-                <input type="text" required id="fname" placeholder="first name" />
+                <input type="text" required name="fname" placeholder="first name" />
                 <label for="lname">Last Name</label>
-                <input type="text" required id="lname" placeholder="last name" />
+                <input type="text" required name="lname" placeholder="last name" />
                 <label for="street">Street</label>
-                <input type="text" required id="street" placeholder="street" />
+                <input type="text" required name="street" placeholder="street" />
                 <label for="state">State</label>
                 <select id="state">
                     <option value="AL">Alabama</option>

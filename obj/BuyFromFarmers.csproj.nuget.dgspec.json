@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\oleks\\Source\\Repos\\BuyFromFarmers\\BuyFromFarmers.csproj": {}
+    "C:\\Users\\oleks\\source\\repos\\BuyFromFarmers\\BuyFromFarmers.csproj": {}
   },
   "projects": {
-    "C:\\Users\\oleks\\Source\\Repos\\BuyFromFarmers\\BuyFromFarmers.csproj": {
+    "C:\\Users\\oleks\\source\\repos\\BuyFromFarmers\\BuyFromFarmers.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\oleks\\Source\\Repos\\BuyFromFarmers\\BuyFromFarmers.csproj",
+        "projectUniqueName": "C:\\Users\\oleks\\source\\repos\\BuyFromFarmers\\BuyFromFarmers.csproj",
         "projectName": "BuyFromFarmers",
-        "projectPath": "C:\\Users\\oleks\\Source\\Repos\\BuyFromFarmers\\BuyFromFarmers.csproj",
+        "projectPath": "C:\\Users\\oleks\\source\\repos\\BuyFromFarmers\\BuyFromFarmers.csproj",
         "packagesPath": "C:\\Users\\oleks\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\oleks\\Source\\Repos\\BuyFromFarmers\\obj\\",
+        "outputPath": "C:\\Users\\oleks\\source\\repos\\BuyFromFarmers\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"

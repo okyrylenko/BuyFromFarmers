@@ -24,11 +24,10 @@ C:\Users\oleks\Source\Repos\BuyFromFarmers\bin\Debug\netcoreapp3.1\BuyFromFarmer
 C:\Users\oleks\Source\Repos\BuyFromFarmers\bin\Debug\netcoreapp3.1\BuyFromFarmers.pdb
 C:\Users\oleks\Source\Repos\BuyFromFarmers\obj\Debug\netcoreapp3.1\BuyFromFarmers.AssemblyInfoInputs.cache
 C:\Users\oleks\Source\Repos\BuyFromFarmers\obj\Debug\netcoreapp3.1\BuyFromFarmers.AssemblyInfo.cs
-C:\Users\oleks\Source\Repos\BuyFromFarmers\obj\Debug\netcoreapp3.1\BuyFromFarmers.csproj.CoreCompileInputs.cache
-C:\Users\oleks\Source\Repos\BuyFromFarmers\obj\Debug\netcoreapp3.1\BuyFromFarmers.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\oleks\Source\Repos\BuyFromFarmers\obj\Debug\netcoreapp3.1\BuyFromFarmers.RazorTargetAssemblyInfo.cache
 C:\Users\oleks\Source\Repos\BuyFromFarmers\obj\Debug\netcoreapp3.1\staticwebassets\BuyFromFarmers.StaticWebAssets.Manifest.cache
 C:\Users\oleks\Source\Repos\BuyFromFarmers\obj\Debug\netcoreapp3.1\staticwebassets\BuyFromFarmers.StaticWebAssets.xml
 C:\Users\oleks\Source\Repos\BuyFromFarmers\obj\Debug\netcoreapp3.1\BuyFromFarmers.dll
 C:\Users\oleks\Source\Repos\BuyFromFarmers\obj\Debug\netcoreapp3.1\BuyFromFarmers.pdb
 C:\Users\oleks\Source\Repos\BuyFromFarmers\obj\Debug\netcoreapp3.1\BuyFromFarmers.genruntimeconfig.cache
+C:\Users\oleks\source\repos\BuyFromFarmers\obj\Debug\netcoreapp3.1\BuyFromFarmers.csprojAssemblyReference.cache

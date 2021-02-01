@@ -5,20 +5,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     <title>Product Details | Buy From Farmers</title>
     <link rel="stylesheet" type="text/css" href="../styles/main.css" />
+    <script src="../scripts/jquery.validate.min.js"></script>
 </head>
 <body>
     <header>
     </header>
     <main>
-        <h1>Edit a product</h1>
         <form action="" method="post">
-            <label for="name">Name</label>
-            <input type="text" required name="name" placeholder="product name" maxlength="50" autofocus />
-            <label for="pricce">Price</label>
-            <input type="text" required name="price" placeholder="price" maxlength="4" />
-            <label for="image">Image</label>
-            <input type="file" required name="image" />
-            <button type="submit">Update</button>
+            <fieldset>
+                <legend>Edit a product</legend>
+                <label for="name">Name</label>
+                <input type="text" required name="name" placeholder="product name" maxlength="50" autofocus />
+                <label for="pricce">Price</label>
+                <input type="text" required name="price" placeholder="price" maxlength="4" />
+                <label for="image">Image</label>
+                <input type="file" required name="image" />
+                <button type="submit">Update</button>
+            </fieldset>
         </form>
 
     </main>

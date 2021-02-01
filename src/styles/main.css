@@ -11,7 +11,7 @@ table, caption, tbody, tfoot, thead, tr, th, td,
 article, aside, canvas, details, embed,
 figure, figcaption, footer, header, hgroup,
 menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
+time, mark, audio, video, button {
     margin: 0;
     padding: 0;
     border: 0;
@@ -55,7 +55,8 @@ table {
 
 body {
     font-family: Verdana, Arial, sans-serif;
-    background-color: #8de3ab;
+    background-color: #7d9c7a;
+    background-image: url("data:image/svg+xml,%3Csvg width='6' height='6' viewBox='0 0 6 6' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='%237acc84' fill-opacity='0.4' fill-rule='evenodd'%3E%3Cpath d='M5 0h1L0 6V5zM6 5v1H5z'/%3E%3C/g%3E%3C/svg%3E");
 }
 
 
@@ -87,28 +88,72 @@ p {
     line-height: 1.8;
 }
 
+ul.flex-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: #366140;
+}
+
+    ul.flex-container > li {
+        flex-basis:0;
+        flex-grow: 1;
+    }
+
+    ul.flex-container > li a {
+        display: inline-block;
+        width: 100%;
+        text-align: center;
+    }
+
+    ul.flex-container > li:last-child {
+        flex-grow: 2;
+    }
+
+    ul.flex-container > li:last-child > input {
+        width: 80%;
+        float:left;
+        margin: 0 5px 0 0;
+        border-radius: 10px 0 0 10px;
+        padding: 0 inherit 0 inherit;
+        border:0;
+    }
+
+        ul.flex-container > li:last-child > input:focus{
+            height:30px;
+        }
+
+        ul.flex-container > li:last-child > button {
+            float: left;
+            width: 20%;
+            height: 30px;
+            border-radius: 0 10px 10px 0;
+            background-color: #366140;
+            border: 2px solid white;
+            color: #FFFFFF;
+        }
 nav ul li {
     font-size: 22px;
     font-weight: bold;
     padding: 10px;
-    width: 50%;
-    margin: 0 auto;
-    text-align: center;
 }
 
 nav > ul > li a {
     text-decoration: none;
-    text-align: center;
+    color: #FFFFFF;
+    text-shadow: 4px -4px #000000;
 }
+
+.clear {
+    clear: both;
+}
+
 
 .card {
     border: 5px outset #086328;
-    border-radius: 5px;
+    border-radius: 20px;
     background-color: #0da141;
     padding: 2px 0px;
-}
-
-.card-inline {
     display: inline-block;
     width: 23%;
     float: left;
@@ -118,10 +163,11 @@ nav > ul > li a {
 }
 
 .product-name {
-    background-color: rgb(13, 161, 65);
     padding: 10px 0;
+    border-radius:20px 20px 0 0 ;
     top: 0;
     width: 100%;
+    margin:0 auto;
 }
 
 .product-price {
@@ -139,6 +185,7 @@ li.card img {
     width: 25%;
 }
 
+
 .result-section {
     clear: both;
     margin-top: 150px;
@@ -147,11 +194,51 @@ li.card img {
 button {
     background-color: #b0b548;
     border-radius: 5px;
+    font-size:15px;
 }
 
-    button:hover {
-        background-color: #d6de31;
+input, button, select {
+    border-radius: 10px;
+    padding-left: 10px;
+    height: 30px;
+    width: 100%;
+}
+
+    input:focus, select:focus {
+        border: 3px solid #2a632e;
+        height:35px;
     }
+button.add{
+    width:30%;
+    display:inline;
+    margin:auto 0;
+    margin: 5px 0 0 0;
+}
+
+
+input[type='search'] {
+    width: 50%;
+    display: block;
+    margin: 0 auto;
+}
+
+input[type='checkbox']{
+    width:initial;
+    vertical-align:middle;
+}
+
+legend{
+    text-align:center;
+
+}
+
+button:hover {
+    background-color: #d6de31;
+    color: #2a632e;
+    font-weight:600;
+}
+
+
 
 select > option:nth-of-type(odd) {
     background-color: #ced4de;
@@ -161,26 +248,59 @@ select > option:nth-child(even) {
     background-color: #aeb6c2;
 }
 
-form *{
-    display:block;
-    width:20%;
+form {
+    display: block;
+    width: 20%;
     margin: 0 auto;
-
 }
 
-form label,form button{
-    margin: 10px auto 0 auto;
+form legend{
+    width:100%;
+    margin:20px auto;
+    text-align:center;
+    font-size:1.5em;
+}
+
+form p{
+    text-align:left;
+}
+
+form button{
+    margin: 10px auto;
+}
+
+#farm-list p{
+    display:inline-block;
 }
 
 
+.row  button {
+    width: 25%;
+    float: right;
+    margin:initial;
+    box-sizing:padding-box;
+}
 
-/*small*/
-@media only screen and (max-width: 768px) {
-    body {
-        background-color: red;
-    }
+.row{
+    overflow:auto;
+    margin-bottom:5px;
+}
 
-    .small-12 {
+label{
+    display:block;
+   margin-top:10px;
+   font-size:0.8em;
+}
+
+.error {
+    color: red;
+    display: none;
+}
+
+
+    /*small*/
+    @media only screen and (max-width: 770px) {
+        .small-12 {
         width: 98%;
         display: block;
     }
@@ -195,4 +315,10 @@ form label,form button{
         text-align: center;
         text-decoration: none;
     }
+
+    form{
+        width:90%;
+        margin:0 5%;
+    }
 }
+

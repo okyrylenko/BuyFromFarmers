@@ -5,29 +5,26 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     <title>Search| Buy From Farmers</title>
     <link rel="stylesheet" type="text/css" href="../styles/main.css" />
+    <script src="../scripts/jquery.validate.min.js"></script>
 </head>
 <body>
     <header>
         <nav>
-            <ul>
+            <ul class="flex-container">
                 <li><a href="accountbuyer.html">My Account</a></li>
-                <li><a href="">Order History</a></li>
+                <li><a href="accountbuyer.html">Order History</a></li>
+                <li>
+                    <input type="search" style="margin: 0 auto;display:inline;" results="3" placeholder="SEARCH FOR PODUCTS OR FARMS" />
+                    <button>Search</button>
+                </li>
             </ul>
         </nav>
 
     </header>
-    <main>
-        <h1>Search</h1>
+    <main class="clear">
         <section>
-            <h2>Search For Farm Or Product</h2>
-            <input type="search" style="margin: 0 auto;" />
-        </section>
-
-
-        <section>
-            <h2>Search Results</h2>
+            <h2 style="margin:50px 0 10px 0;">Products</h2>
             <ul>
-                <h3>Products</h3>
                 <li class="card card-inline small-12">
                     <div class="product-name">Product 1</div>
                     <img src="../images/pear.jpg" alt="Product 1 image" />
@@ -72,8 +69,8 @@
                 </li>
 
             </ul>
+            <h2 class="clear">Farms</h2>
             <ul class="result-section">
-                <h3>Farms</h3>
                 <li class="card small-12">Farm 1</li>
                 <li class="card small-12">Farm 2</li>
             </ul>

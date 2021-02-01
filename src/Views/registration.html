@@ -1,0 +1,48 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <title>Registration | Buy From Farmers</title>
+    <link rel="stylesheet" type="text/css" href="../styles/main.css" />
+    <script src="../scripts//script.js"></script>
+</head>
+<body>
+    <header>
+
+    </header>
+    <main>
+        <form id="registration" novalidate>
+            <fieldset>
+                <legend>Register Your Account</legend>
+                <label for="fname">Enter Your First Name</label>
+                <div class="error">Please correct an error message</div>
+                <input type="text" autofocus id="fname" min="2" placeholder="First Name" required />
+                <label for="lname">Enter Your Last Name</label>
+                <div class="error">Please correct an error message</div>
+                <input type="text" id="lname" min="2" placeholder="Last Name" required />
+                <label for="email">Enter Email</label>
+                <div class="error">Please correct an error message</div>
+                <input type="email" id="email" min="2" placeholder="Email" required />
+                <label for="password">Password</label>
+                <div class="error">Please correct an error message</div>
+                <input type="password" id="password" placeholder="Password" required />
+                <label for="confirm-password">Confirm Password</label>
+                <div class="error">Please correct an error message</div>
+                <input type="password" id="confirm-password" placeholder="Confirm Pasword" required />
+                <div class="error">Please correct an error message</div>
+                <label for="terms" style="display:inline">
+                    <input type="checkbox" id="terms" required value="tou" />
+                    Terms Of Use
+                </label>
+                <button type="submit" onclick="validateForm()">Create Account</button>
+
+            </fieldset>
+        </form>
+    </main>
+    <footer>
+
+    </footer>
+
+</body>
+</html>

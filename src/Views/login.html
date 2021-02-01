@@ -5,18 +5,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     <title>Log In | Buy From Farmers</title>
     <link type="text/css" rel="stylesheet" href="../styles/main.css" />
+    <script src="../scripts/jquery.validate.min.js"></script>
 </head>
 <body>
     <header>
-        <h1>Log Into Account</h1>
+
     </header>
     <main>
         <form accept-charset="UTF-8" action="" autocomplete="off" method="post">
-            <label for="email">Email</label>
-            <input type="email" name="email" placeholder="email address" required autofocus/>
-            <label for="password">Password</label>
-            <input type="password" name="password" placeholder="password" required />
-            <button type="submit">Submit</button>
+            <fieldset>
+                <legend>Log Into Account</legend>
+                <label for="email">Email</label>
+                <input type="email" name="email" placeholder="email address" required autofocus />
+                <label for="password">Password</label>
+                <input type="password" name="password" placeholder="password" required />
+                <button type="submit">Submit</button>
+            </fieldset>
+
         </form>
     </main>
     <footer>

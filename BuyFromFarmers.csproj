@@ -6,6 +6,9 @@
 
   <ItemGroup>
     <Folder Include="src\styles\" />
-    <Folder Include="src\images\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="jQuery.Validation" Version="1.19.2" />
   </ItemGroup>
 </Project>

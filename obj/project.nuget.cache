@@ -1,8 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "/UnEEkOy7TrDv6Y9LxfZBecfk9+Igroqd2SbuZxiie3xOTs6OtWcXSE6ixv97/flSytQquVyH+svnhTMert6gg==",
+  "dgSpecHash": "GU4V2szHeiFtI8fk1kSnZhX9Y263Sa8XwCnmLYeXIysJoyfGVnf34HnaVpIGv6mPie51BYfjqY+iLH6uv+ey4A==",
   "success": true,
   "projectFilePath": "C:\\Users\\oleks\\source\\repos\\BuyFromFarmers\\BuyFromFarmers.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\oleks\\.nuget\\packages\\jquery\\1.4.4\\jquery.1.4.4.nupkg.sha512",
+    "C:\\Users\\oleks\\.nuget\\packages\\jquery.validation\\1.19.2\\jquery.validation.1.19.2.nupkg.sha512"
+  ],
   "logs": []
 }

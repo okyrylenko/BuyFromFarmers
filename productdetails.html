@@ -4,8 +4,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1,shrink-to-fit=no">
     <title>Product Details | Buy From Farmers</title>
-    <link rel="stylesheet" type="text/css" href="src/styles/main.css" />
-    <script src="../scripts/jquery.validate.min.js"></script>
+    <link type="text/css" rel="stylesheet" href="src/styles/main.css" />
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-uWxY/CJNBR+1zjPWmfnSnVxwRheevXITnMqoEIeG1LJrdI0GlVs/9cVSyPYXdcSF" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-kQtW33rZJAHjgefvhyyzcGF3C5TFyBQBA13V1RKPf4uH+bwyzQxZ6CmMZHmNBEfJ" crossorigin="anonymous"></script>
 
@@ -13,16 +12,16 @@
 <body>
     <header>
     </header>
-    <main>
+    <main class="container">
         <form action="" method="post">
             <fieldset>
-                <legend>Edit a product</legend>
+                <legend class="h1">Edit a product</legend>
                 <label for="name">Name</label>
-                <input type="text" required name="name" placeholder="product name" maxlength="50" autofocus />
+                <input type="text" required name="name" class="form-control" placeholder="product name" maxlength="50" autofocus />
                 <label for="pricce">Price</label>
-                <input type="text" required name="price" placeholder="price" maxlength="4" />
+                <input type="text" required name="price" class="form-control" placeholder="price" maxlength="4" />
                 <label for="image">Image</label>
-                <input type="file" required name="image" />
+                <input type="file" required name="image" class="form-control" />
                 <button type="submit">Update</button>
             </fieldset>
         </form>

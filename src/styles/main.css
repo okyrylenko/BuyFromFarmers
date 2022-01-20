@@ -27,8 +27,6 @@ footer, header, hgroup, menu, nav, section {
 
 body {
     line-height: 1;
-    background-image: url(../images/produce_background.jpg);
-    background-repeat: no-repeat;
 }
 
 ol, ul {
@@ -397,4 +395,26 @@ body#main-buyer-landing {
                 grid-row: span 3;
             }
 }
+
+@media (min-width: 992px) {
+    body {
+        line-height: 1;
+        background-image: url(../images/produce_background.jpg);
+        background-repeat: no-repeat;
+    }
+
+    header>h1{
+        font-size: 80px;
+    }
+}
+
+@media (min-width: 301px) {
+    body {
+      background-color: green !important;
+    }
+
+    header>h1{
+        font-size: 30px;
+    }
+  }
 

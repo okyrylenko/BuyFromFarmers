@@ -27,6 +27,8 @@ footer, header, hgroup, menu, nav, section {
 
 body {
     line-height: 1;
+    background-image: url(../images/produce_background.jpg);
+    background-repeat: no-repeat;
 }
 
 ol, ul {
@@ -55,11 +57,14 @@ table {
 
 body {
     font-family: Verdana, Arial, sans-serif;
-    background-color: #003e29 !important;
-    color:#FFFFFF !important;
+    color:#000 !important;
 }
 
+main>div{
+    background-color: rgba(255, 255, 255, 0.7)!important;
+    border-radius: 50px;
 
+}
 
 /*large*/
 h1, h2, h3, h4, h5, h6 {
@@ -88,10 +93,6 @@ p {
     line-height: 1.8;
 }
 
-header{
-    color: #003e29 ;
-    height:100px;
-}
 
 nav{
     position:static;

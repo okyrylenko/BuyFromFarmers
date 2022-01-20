@@ -1,53 +1,65 @@
 ﻿<!DOCTYPE html>
 <html>
+
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1,shrink-to-fit=no">
     <title>My Account | Buy From Farmers</title>
     <link type="text/css" rel="stylesheet" href="src/styles/main.css" />
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-uWxY/CJNBR+1zjPWmfnSnVxwRheevXITnMqoEIeG1LJrdI0GlVs/9cVSyPYXdcSF" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-kQtW33rZJAHjgefvhyyzcGF3C5TFyBQBA13V1RKPf4uH+bwyzQxZ6CmMZHmNBEfJ" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-uWxY/CJNBR+1zjPWmfnSnVxwRheevXITnMqoEIeG1LJrdI0GlVs/9cVSyPYXdcSF" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-kQtW33rZJAHjgefvhyyzcGF3C5TFyBQBA13V1RKPf4uH+bwyzQxZ6CmMZHmNBEfJ"
+        crossorigin="anonymous"></script>
 
     <style>
-        .card-bg{
+        .card-bg {
             background-color: white;
-            color:#003e29;
             border-radius: 20px;
+        }
+
+        form {
+            width: 90% !important;
+        }
+        header>h1{
+            font-size: 80px;
         }
     </style>
 </head>
+
 <body>
-    <header class="bg-white d-flex">
+    <header class="d-flex text-white">
         <h1 class="m-auto">My Account</h1>
     </header>
     <main>
         <div class="container">
-            <div class="row">
-                <div class="col-sm-6 col-md-3">
-                    <section class="row no-gutters">
+            <div class="row g-0 mx-lg-5 mx-3">
+                <div class="col-12 col-lg-3 px-3" id="personalInfo">
+                    <section class="row g-0">
                         <form>
                             <fieldset>
                                 <legend class="fs-2 text-center">Personal Information</legend>
                                 <button type="button">EDIT</button>
-                                <p>First Name: John </p>
-                                <p>Last Name: DOE</p>
-                                <p>Street: MLK blvd</p>
-                                <p>State:FL</p>
-                                <p>Zip Code:32825</p>
+                                <p>First Name: <span style="float: inline-end;">John</span> </p>
+                                <p>Last Name: <span style="float: inline-end;">Doe</span> </p>
+                                <p>Street: <span style="float: inline-end;">MLK blvd</span></p>
+                                <p>State:<span style="float: inline-end;">FL</span></p>
+                                <p>Zip Code: <span style="float: inline-end;">32825</span></p>
                             </fieldset>
-    
+
                         </form>
                     </section>
-                    <section class="row">
-                        <form action="" method="post">
+                    <section class="row g-0">
+                        <form action="" method="post" class="col-12">
                             <fieldset>
                                 <legend class="fs-2 text-center">Edit Personal Informaiton</legend>
-                                <label for="fname" >First Name</label>
-                                <input type="text" required name="fname" placeholder="first name" class="form-control pill" autofocus />
+                                <label for="fname">First Name</label>
+                                <input type="text" required name="fname" placeholder="first name"
+                                    class="form-control pill" autofocus />
                                 <label for="lname">Last Name</label>
-                                <input type="text" required name="lname" placeholder="last name"class="form-control" />
+                                <input type="text" required name="lname" placeholder="last name" class="form-control" />
                                 <label for="street">Street</label>
-                                <input type="text" required name="street" placeholder="street" class="form-control"/>
+                                <input type="text" required name="street" placeholder="street" class="form-control" />
                                 <label for="state">State</label>
                                 <select name="state" required class="form-control">
                                     <option value="AL">Alabama</option>
@@ -109,97 +121,117 @@
                         </form>
                     </section>
                 </div>
-                <div class="col-sm-6 col-md-9 float-end">
-                    <section>
-                        <p class="fs-2 text-center" style="margin: 20px;">Order History</p>
-                        <div class='container'>
-                            <div class="row px-5 w-50 mx-auto fs-5">
-                                <div class="col-12 mb-5 card-bg">
-                                            <div class="d-flex justify-content-between my-2">
-                                                <div>
-                                                    Date Of Purchase
-                                                </div>
-                                                <div fw-bold>
-                                                    01/01/2000
-                                                </div>
-                                            </div>
-                                            <div class="d-flex justify-content-between my-2">
-                                                <div>
-                                                    Farm
-                                                </div>
-                                                <div fw-bold>
-                                                    My Farm
-                                                </div>
-                                            </div>
-                                            <div class="d-flex justify-content-between my-2">
-                                                <div>
-                                                    Total
-                                                </div>
-                                                <div fw-bold>
-                                                    $200
-                                                </div>
-                                            </div>
+                <section class="col-12 col-lg-8 px-lg-5 offset-lg-1" id="orderHistory">
+                    <p class="fs-2 text-center" style="margin: 20px;">Order History</p>
+                    <div id="receipts-container" class=" w-70 mx-auto fs-5 d-flex flex-wrap flex-column flex-lg-row gap-5 justify-content-between mb-5">
+                        <div class="card-bg">
+                            <div class="d-flex justify-content-between m-3">
+                                <div class="me-lg-5">
+                                    Date Of Purchase
                                 </div>
-                                <div class="col-12 mb-5 card-bg">
-                                    <div class="d-flex justify-content-between my-2">
-                                        <div>
-                                            Date Of Purchase
-                                        </div>
-                                        <div fw-bold>
-                                            01/01/2000
-                                        </div>
-                                    </div>
-                                    <div class="d-flex justify-content-between my-2">
-                                        <div>
-                                            Farm
-                                        </div>
-                                        <div fw-bold>
-                                            My Farm
-                                        </div>
-                                    </div>
-                                    <div class="d-flex justify-content-between my-2">
-                                        <div>
-                                            Total
-                                        </div>
-                                        <div fw-bold>
-                                            $200
-                                        </div>
-                                    </div>
+                                <div class="ms-lg-5 fw-bolder">
+                                    01/01/2000
                                 </div>
-                                <div class="col-12 mb-5 card-bg">
-                                    <div class="d-flex justify-content-between my-2">
-                                        <div>
-                                            Date Of Purchase
-                                        </div>
-                                        <div fw-bold>
-                                            01/01/2000
-                                        </div>
-                                    </div>
-                                    <div class="d-flex justify-content-between my-2">
-                                        <div>
-                                            Farm
-                                        </div>
-                                        <div fw-bold>
-                                            My Farm
-                                        </div>
-                                    </div>
-                                    <div class="d-flex justify-content-between my-2">
-                                        <div>
-                                            Total
-                                        </div>
-                                        <div fw-bold>
-                                            $200
-                                        </div>
-                                    </div>
+                            </div>
+                            <div class="d-flex justify-content-between m-3">
+                                <div>
+                                    Farm
+                                </div>
+                                <div class="ms-lg-5 fw-bolder">
+                                    My Farm
+                                </div>
+                            </div>
+                            <div class="d-flex justify-content-between m-3">
+                                <div>
+                                    Total
+                                </div>
+                                <div class="ms-lg-5 fw-bolder">
+                                    $200
+                                </div>
+                            </div>
                         </div>
+                        <div class="card-bg">
+                            <div class="d-flex justify-content-between m-3">
+                                <div class="me-lg-5">
+                                    Date Of Purchase
+                                </div>
+                                <div class="ms-lg-5 fw-bolder">
+                                    01/01/2000
+                                </div>
+                            </div>
+                            <div class="d-flex justify-content-between m-3">
+                                <div>
+                                    Farm
+                                </div>
+                                <div class="ms-lg-5 fw-bolder">
+                                    My Farm
+                                </div>
+                            </div>
+                            <div class="d-flex justify-content-between m-3">
+                                <div>
+                                    Total
+                                </div>
+                                <div class="ms-lg-5 fw-bolder">
+                                    $200
+                                </div>
+                            </div>
                         </div>
+                        <div class="card-bg">
+                            <div class="d-flex justify-content-between m-3">
+                                <div class="me-lg-5">
+                                    Date Of Purchase
+                                </div>
+                                <div class="ms-lg-5 fw-bolder">
+                                    01/01/2000
+                                </div>
+                            </div>
+                            <div class="d-flex justify-content-between m-3">
+                                <div>
+                                    Farm
+                                </div>
+                                <div class="ms-lg-5 fw-bolder">
+                                    My Farm
+                                </div>
+                            </div>
+                            <div class="d-flex justify-content-between m-3">
+                                <div>
+                                    Total
+                                </div>
+                                <div class="ms-lg-5 fw-bolder">
+                                    $200
+                                </div>
+                            </div>
                         </div>
-                    </section>
-                </div>
+                        <div class="card-bg">
+                            <div class="d-flex justify-content-between m-3">
+                                <div class="me-lg-5">
+                                    Date Of Purchase
+                                </div>
+                                <div class="ms-lg-5 fw-bolder">
+                                    01/01/2000
+                                </div>
+                            </div>
+                            <div class="d-flex justify-content-between m-3">
+                                <div>
+                                    Farm
+                                </div>
+                                <div class="ms-lg-5 fw-bolder">
+                                    My Farm
+                                </div>
+                            </div>
+                            <div class="d-flex justify-content-between m-3">
+                                <div>
+                                    Total
+                                </div>
+                                <div class="ms-lg-5 fw-bolder">
+                                    $200
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
             </div>
-           
         </div>
-        
     </main>
     <footer>
     </footer>

@@ -58,6 +58,10 @@ body {
     color:#000 !important;
 }
 
+header>h1{
+    color: white;
+}
+
 main>div{
     background-color: rgba(255, 255, 255, 0.7)!important;
     border-radius: 50px;
@@ -375,7 +379,6 @@ body#main-buyer-landing {
     }
 
     #checkout-form {
-        display: grid;
         display:flex;
         grid-template-rows: auto auto 10%;
         width: 60%;
@@ -402,18 +405,25 @@ body#main-buyer-landing {
     }
 
     header>h1{
-        font-size: 80px;
+        font-size: 60px;
+    }
+
+    #checkout-submit{
+        width: 50%;
     }
 }
 
-@media (min-width: 301px) {
+@media (max-width: 991px) {
     body {
       background-color: green !important;
     }
 
     header>h1{
         font-size: 30px;
-        color: white;
+    }
+
+    #checkout-submit{
+        width: 75%;
     }
   }
 

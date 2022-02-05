@@ -8,76 +8,91 @@
     <link type="text/css" rel="stylesheet" href="src/styles/main.css" />
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-uWxY/CJNBR+1zjPWmfnSnVxwRheevXITnMqoEIeG1LJrdI0GlVs/9cVSyPYXdcSF" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-kQtW33rZJAHjgefvhyyzcGF3C5TFyBQBA13V1RKPf4uH+bwyzQxZ6CmMZHmNBEfJ" crossorigin="anonymous"></script>
-
-    <style>
-        img {
-            height: 250px;
-            width: 100%;
-        }
-
-        ul > li {
-            width: 33%;
-            text-align: center;
-        }
-    </style>
 </head>
 <body>
     <header>
         <h1>Shopping Cart</h1>
         <a href="productlist.html">Go Back</a>
     </header>
-    <main class="container-fluid">
-        <h2>Your itmes</h2>
-        <ul class="d-flex card-container flex-wrap">
-            <li class="card border-3 border-success small-12 col-2">
+    <main class="container g-0">
+        <div>
+            <h2>Your itmes</h2>
+            <ul class="d-flex flex-column flex-lg-wrap mx-5 px-3 flex-lg-row justify-content-lg-between" >
+                <li class="card border-3 border-success mb-5 col-lg-3 mx-lg-5">
+                    <h3 class="product-name">Product 2</h3>
+                    <img src="src/images/banana.jpg" class="img-fluid"/>
+                    <div class="d-flex">
+                        <p class="col text-start ms-3">Quantity:</p>
+                        <p class="col text-end me-3">2</p>
+                    </div>
+                    <div class="d-flex">
+                        <p class="col text-start ms-3">Price:</p>
+                        <p class="col text-end me-3">6.99</p>
+                    </div>
+                </li>
+                <li class="card border-3 border-success mb-5 col-lg-3 mx-lg-5" >
+                    <h3 class="product-name">Product 3</h3>
+                    <img src="src/images/apple.jpg"class="img-fluid"/>
+                    <div class="d-flex">
+                        <p class="col text-start ms-3">Quantity:</p>
+                        <p class="col text-end me-3">2</p>
+                    </div>
+                    <div class="d-flex">
+                        <p class="col text-start ms-3">Price:</p>
+                        <p class="col text-end me-3">6.99</p>
+                    </div>
+                </li>
+                <li class="card border-3 border-success  mb-5 col-lg-3 mx-lg-5">
+                    <h3 class="product-name">Product 1</h3>
+                    <img src="src/images/pear.jpg" class="img-fluid"/>
+                    <div class="d-flex">
+                        <p class="col text-start ms-3">Quantity:</p>
+                        <p class="col text-end me-3">2</p>
+                    </div>
+                    <div class="d-flex">
+                        <p class="col text-start ms-3">Price:</p>
+                        <p class="col text-end me-3">6.99</p>
+                    </div>
+                </li>
+                <li class="card border-3 border-success mb-5 col-lg-3 mx-lg-5">
                 <h3 class="product-name">Product 2</h3>
-                <img src="src/images/banana.jpg" class="img-fluid img-thumbnail"/>
-                <div>
-                    <p>Quantity:2</p>
-                    <p>Price:5.00</p>
+                <img src="src/images/banana.jpg" class="img-fluid"/>
+                <div class="d-flex">
+                    <p class="col text-start ms-3">Quantity:</p>
+                    <p class="col text-end me-3">2</p>
                 </div>
-            </li>
-            <li class="card border-3 border-success small-12 col-2" >
-                <h3 class="product-name">Product 3</h3>
-                <img src="src/images/apple.jpg"class="img-fluid img-thumbnail"/>
-                <div>
-                    <p>Quantity:2</p>
-                    <p>Price:0.00</p>
+                <div class="d-flex">
+                    <p class="col text-start ms-3">Price:</p>
+                    <p class="col text-end me-3">6.99</p>
                 </div>
-            </li>
-            <li class="card border-3 border-success small-12 col-2">
-                <h3 class="product-name">Product 1</h3>
-                <img src="src/images/pear.jpg" class="img-fluid img-thumbnail"/>
-                <div>
-                    <p>Quantity:2</p>
-                    <p>Price:0.00</p>
-                </div>
-            </li>
-            <li class="card border-3 border-success small-12 col-2">
-            <h3 class="product-name">Product 2</h3>
-            <img src="src/images/banana.jpg" class="img-fluid img-thumbnail"/>
-            <div>
-                <p>Quantity:2</p>
-                <p>Price:5.00</p>
-            </div>
-            </li>
-            <li class="card border-3 border-success small-12 col-2">
-                <h3 class="product-name">Product 3</h3>
-                <img src="src/images/apple.jpg" class="img-fluid img-thumbnail"/>
-                <div>
-                    <p>Quantity:2</p>
-                    <p>Price:0.00</p>
-                </div>
-            </li>
-            <li class="card border-3 border-success small-12 col-2">
-                <h3 class="product-name">Product 1</h3>
-                <img src="src/images/pear.jpg" class="img-fluid img-thumbnail"/>
-                <div>
-                    <p>Quantity:2</p>
-                    <p>Price:0.00</p>
-                </div>
-            </li>
-        </ul>
+                </li>
+                <li class="card border-3 border-success  mb-5 col-lg-3 mx-lg-5">
+                    <h3 class="product-name">Product 3</h3>
+                    <img src="src/images/apple.jpg" class="img-fluid "/>
+                    <div class="d-flex">
+                        <p class="col text-start ms-3">Quantity:</p>
+                        <p class="col text-end me-3">2</p>
+                    </div>
+                    <div class="d-flex">
+                        <p class="col text-start ms-3">Price:</p>
+                        <p class="col text-end me-3">6.99</p>
+                    </div>
+                </li>
+                <li class="card border-3 border-success mb-5 col-lg-3 mx-lg-5">
+                    <h3 class="product-name">Product 1</h3>
+                    <img src="src/images/pear.jpg" class="img-fluid"/>
+                    <div class="d-flex">
+                        <p class="col text-start ms-3">Quantity:</p>
+                        <p class="col text-end me-3">2</p>
+                    </div>
+                    <div class="d-flex">
+                        <p class="col text-start ms-3">Price:</p>
+                        <p class="col text-end me-3">6.99</p>
+                    </div>
+                </li>
+            </ul>
+        </div>
+        
     </main>
     <footer>
     </footer>

@@ -62,10 +62,9 @@ header>h1{
     color: white;
 }
 
-main>div{
+main>*{
     background-color: rgba(255, 255, 255, 0.7)!important;
     border-radius: 50px;
-
 }
 
 /*large*/
@@ -163,17 +162,6 @@ nav > ul > li a {
     clear: both;
 }
 
-.card-container{
-    padding: 2rem;
-}
-.card {
-    border: 5px outset #086328;
-    border-radius: 20px;
-    text-align: center;
-    box-shadow: 7px -7px #bfbdba;
-    height: 400px;
-    width: 250px;
-}
 
 .product-name {
     padding: 10px 0;
@@ -190,7 +178,7 @@ nav > ul > li a {
 
 
 li.card img {
-    height: 250px;
+    height: 200px;
     margin-bottom: 5px;
 }
 
@@ -329,11 +317,6 @@ body#main-buyer-landing {
     grid-template-rows: repeat(3, auto);
 }
 
-#main-buyer-landing>footer{
-    height:100px;
-    border:1px solid red;
-    margin:30px 0 0 0;
-}
 /*grid ends*/
 /*small*/
 @media only screen and (max-width: 770px) {
@@ -402,6 +385,14 @@ body#main-buyer-landing {
         line-height: 1;
         background-image: url(../images/produce_background.jpg);
         background-repeat: no-repeat;
+        background-size:cover;
+    }
+
+    .card {
+        border: 5px outset #086328;
+        border-radius: 20px;
+        text-align: center;
+        box-shadow: 5px -5px rgb(182, 182, 182);
     }
 
     header>h1{
@@ -416,6 +407,12 @@ body#main-buyer-landing {
 @media (max-width: 991px) {
     body {
       background-color: green !important;
+    }
+    .card {
+        border: 5px outset #086328;
+        border-radius: 20px;
+        text-align: center;
+        box-shadow: 3px -3px green;
     }
 
     header>h1{

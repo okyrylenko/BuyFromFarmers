@@ -402,6 +402,9 @@ body#main-buyer-landing {
     #checkout-submit{
         width: 50%;
     }
+    .text-font-large{
+        font-size: 20px;
+    }
 }
 
 @media (max-width: 991px) {

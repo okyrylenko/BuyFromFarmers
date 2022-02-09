@@ -154,7 +154,6 @@ nav ul li {
 nav > ul > li a {
     text-decoration: none;
     color: #FFFFFF;
-    text-shadow: 4px -4px #000000;
 }
 
 /*cards start*/
@@ -190,7 +189,7 @@ li.card img {
 }
 
 button {
-    background-color: #b0b548;
+    background-color: #b0b548 !important;
     border-radius: 5px;
     font-size:15px;
 }
@@ -378,6 +377,10 @@ body#main-buyer-landing {
             #checkout-form fieldset > h2 {
                 grid-row: span 3;
             }
+}
+
+.text-justify{
+    text-align: justify
 }
 
 @media (min-width: 992px) {

@@ -53,9 +53,6 @@ table {
     box-sizing: border-box;
 }
 
-html,body{
-    height: 100%;
-}
 body {
     font-family: Verdana, Arial, sans-serif;
     color:#000 !important;
@@ -171,7 +168,7 @@ nav > ul > li a {
     top: 0;
     width: 100%;
     margin:0 auto;
-    font-size: 25px;
+    font-size: 15px;
     text-transform: uppercase;
 }
 
@@ -206,6 +203,10 @@ button {
         border: 3px solid #2a632e;
         height:35px;
     }
+
+select{
+    color: rgb(58, 38, 104)!important;
+}
 button.add{
     width:40%;
     height: 40px;
@@ -381,14 +382,17 @@ body#main-buyer-landing {
         line-height: 1;
         background-image: url(../images/produce_background.jpg);
         background-repeat: no-repeat;
-        background-size:cover;
+        -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
     }
 
     .card {
         border: 5px outset #086328;
         border-radius: 20px;
         text-align: center;
-        box-shadow: 5px -5px rgb(182, 182, 182);
+        box-shadow: 5px -5px rgb(230, 228, 228);
     }
 
     header>h1{
@@ -418,7 +422,7 @@ body#main-buyer-landing {
       background-color: green !important;
     }
     .card {
-        border: 5px outset #086328;
+        border: 5px outset solid  #086328 !important;
         border-radius: 20px;
         text-align: center;
         box-shadow: 3px -3px green;

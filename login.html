@@ -13,12 +13,12 @@
 </head>
 <!--DONE-->
 <body>
-    <div class="container d-flex flex-column g-0 justify-content-between" style="height: 100%;">
         <header>
             <h1>Log In</h1>
         </header>
-        <main>
-                <form accept-charset="UTF-8" action="" autocomplete="off" method="post" id="logIn_form">
+        <main >
+            <div id="form-container" class="w-50 container d-flex flex-column g-0 justify-content-between my-3 py-3">
+                <form accept-charset="UTF-8" action="" autocomplete="off" method="post">
                     <fieldset class="px-5">
                         <label for="email" class="form-label">Email</label>
                         <input type="email"  name="email" placeholder="email address" required autofocus class="form-control form-control" />
@@ -28,6 +28,7 @@
                     </fieldset>
         
                 </form>
+                
            
         </main>
         <footer>

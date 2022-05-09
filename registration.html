@@ -7,17 +7,15 @@
     <link type="text/css" rel="stylesheet" href="src/styles/main.css" />
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-uWxY/CJNBR+1zjPWmfnSnVxwRheevXITnMqoEIeG1LJrdI0GlVs/9cVSyPYXdcSF" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-kQtW33rZJAHjgefvhyyzcGF3C5TFyBQBA13V1RKPf4uH+bwyzQxZ6CmMZHmNBEfJ" crossorigin="anonymous"></script>
-
 </head>
 <body>
     <header>
-
+        <h1>Register Your Account</h1>
     </header>
-    <main>
-        <div class="container" style="width: 30%;">
+    <main >
+        <div id="form-container" class="container d-flex justify-content-center my-3 py-3 w-50">
             <form id="registration" novalidate>
-                <fieldset>
-                    <legend class="h1">Register Your Account</legend>
+                <fieldset class="px-5">                  
                     <label for="fname" class="fs-6 form-label">Enter Your First Name</label>
                     <div class="error">Please correct an error message</div>
                     <input type="text" autofocus id="fname" min="2" class="form-control" placeholder="First Name" required />

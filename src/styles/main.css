@@ -103,6 +103,12 @@ nav a:hover{
     color:grey
 }
 
+.toast{
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
 ul.flex-container {
     justify-content: space-around;
     background-color: #366140;
@@ -208,7 +214,7 @@ select{
     color: rgb(58, 38, 104)!important;
 }
 button.add{
-    width:40%;
+    width:45%;
     height: 40px;
 }
 
@@ -223,6 +229,7 @@ input[type='checkbox']{
     width:initial;
     vertical-align:middle;
 }
+
 
 legend{
     text-align:center;
@@ -434,6 +441,10 @@ body#main-buyer-landing {
 
     #checkout-submit{
         width: 75%;
+    }
+
+    #form-container{
+        width: 100% !important;
     }
   }
 
